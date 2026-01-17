@@ -13,9 +13,18 @@
         "start": "webpack server --config webpackConfigs/webpack.dev.config.ts",
         "build": "webpack --config webpackConfigs/webpack.prod.config.ts"
     },
+    "engines": {
+        "npm": ">=11.0.0",
+        "node": ">=24.0.0"
+    },
+    "browserslist": [
+        "last 2 versions",
+        "not dead",
+        "> 0.5%"
+    ],
     "dependencies": {
-        "react": "18.3.1",
-        "react-dom": "18.3.1"
+        "react": "^19.2.3",
+        "react-dom": "^19.2.3"
     },
     "devDependencies": {
         "@babel/core": "7.25.7",
@@ -23,8 +32,8 @@
         "@babel/preset-env": "7.25.7",
         "@babel/preset-react": "7.25.7",
         "@babel/preset-typescript": "7.25.7",
-        "@types/react": "18.3.11",
-        "@types/react-dom": "18.3.0",
+        "@types/react": "^19.2.8",
+        "@types/react-dom": "^19.2.3",
         "@types/webpack-dev-server": "4.7.2",
         "@typescript-eslint/eslint-plugin": "8.8.1",
         "@typescript-eslint/parser": "8.8.1",
@@ -42,6 +51,7 @@
         "style-loader": "4.0.0",
         "ts-loader": "9.5.1",
         "ts-node": "10.9.2",
+        "tsconfig-paths-webpack-plugin": "4.2.0",
         "typescript": "5.6.2",
         "webpack": "5.95.0",
         "webpack-cli": "5.1.4",
