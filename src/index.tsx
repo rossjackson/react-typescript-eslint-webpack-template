@@ -7,7 +7,7 @@ if (!documentRoot) throw new Error('root not found.')
 
 const root = createRoot(documentRoot)
 root.render(
-    <StrictMode>
-        <App />
-    </StrictMode>
+  <StrictMode>
+    <App />
+  </StrictMode>
 )
